@@ -27,7 +27,7 @@ homepage: https://vj6cqktnxq.feishu.cn/wiki/Nmp4wGy45i88E3kYXmJcHwnLnIg
 ## 卷二
 
 5. 图算法
-   1. include : Algorithms in C++, Part5 Graph Algorithms, Third Edition sourceCode
+   1. include : Algorithms in C++, Part5 Graph Algorithms, Third Edition sourceCode ([ref:newman github](https://github.com/newmen/graph-algorithms))
 6. 字符串算法（String Algorithms）
 7. 组合和排列
 
@@ -51,3 +51,11 @@ homepage: https://vj6cqktnxq.feishu.cn/wiki/Nmp4wGy45i88E3kYXmJcHwnLnIg
 11. 算法的应用场景（算法的使用领域）
 12. 难解的问题（NP难、NP完全问题）
 13. 编译原理（可选）
+
+
+# 分卷内容
+
+卷一：1 ，2，3 [数据结构和算法-DSA-卷一](https://vj6cqktnxq.feishu.cn/wiki/Nmp4wGy45i88E3kYXmJcHwnLnIg)  
+卷二：4，5，6 [数据结构和算法-DSA-卷二](https://vj6cqktnxq.feishu.cn/wiki/ZjyuwzDogijtvykFBBrczI10nEc)  
+卷三：7，8，9 [数据结构和算法-DSA-卷三](https://vj6cqktnxq.feishu.cn/wiki/IBWCwaNLvikxggkYBKjcGJUKn3d)  
+卷四：10，11(是否可以增加) [数据结构和算法-DSA-卷四](https://vj6cqktnxq.feishu.cn/wiki/LC9Ew3b9iiOcQSkTwQYc0bJ2nyc)  
