@@ -1,11 +1,10 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.21)
 project(DSA)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(DSA main.cpp)
 
 # 添加子模块-子目录
-add_subdirectory(Tree)
-add_subdirectory(Graph_RS)
-add_subdirectory(Graph)
+add_subdirectory(V2/Tree)
+add_subdirectory(V2/V2.2_Graph/Graph_RS)
+add_subdirectory(V2/V2.2_Graph/Graph)
