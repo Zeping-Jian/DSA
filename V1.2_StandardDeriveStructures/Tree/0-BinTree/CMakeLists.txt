@@ -1,3 +1,0 @@
-
-add_executable(BinTree.Traversal TravelBinTree.cpp)
-add_executable(travel_bintree_iterate BinTreeIterate.cpp)

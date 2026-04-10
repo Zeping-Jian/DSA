@@ -10,9 +10,9 @@ homepage: https://vj6cqktnxq.feishu.cn/wiki/Nmp4wGy45i88E3kYXmJcHwnLnIg
 1. 使用说明
 2. 基础数据结构
    1. 根基结构：数组和链表（能叫一叉树么？）
-   2. 根基结构的衍生结构
-   3. 继续的衍生结构
-3. 数据结构-2
+   2. 根基结构的标准衍生结构
+   3. 继续的衍生结构 Further
+3. 数据结构-2(衍生数据结构)
    1. HashMap（散列表）
    2. B-树，B+树
    3. 斐波那契堆

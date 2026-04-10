@@ -23,7 +23,7 @@ struct TreeNode {
 // 版本一
 class Solution {
 private:
-
+    // 这是前序遍历过程么
     void traversal(TreeNode* cur, vector<int>& path, vector<string>& result) {
         path.push_back(cur->val); // 中，中为什么写在这里，因为最后一个节点也要加入到path中 
         // 这才到了叶子节点

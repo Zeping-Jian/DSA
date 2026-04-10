@@ -6,9 +6,44 @@
 #include <iostream>
 using namespace std;
 
-class Solution {
+/**
+ * 
+ * 合并二叉树，也是二叉树操作的经典题目，如果没有接触过的话，其实并不简单，因为我们习惯了操作一个二叉树，一起操作两个二叉树，还会有点懵懵的。
+ * 这不是我们第一次操作两棵二叉树了，在二叉树：我对称么？中也一起操作了两棵二叉树。
+ */
+
+class Solution_Preorder {
 public:
-    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) { // 前序遍历实现
+        if (t1 == NULL) return t2; // 如果t1为空，合并之后就应该是t2
+        if (t2 == NULL) return t1; // 如果t2为空，合并之后就应该是t1
+        // 修改了t1的数值和结构
+        t1->val += t2->val;                             // 中
+        t1->left = mergeTrees(t1->left, t2->left);      // 左
+        t1->right = mergeTrees(t1->right, t2->right);   // 右
+        return t1;
+    }
+};
+
+// 中序遍历实现
+class Solution_Inorder {
+public:
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) { // 中序遍历实现
+        if (t1 == NULL) return t2; // 如果t1为空，合并之后就应该是t2
+        if (t2 == NULL) return t1; // 如果t2为空，合并之后就应该是t1
+        // 修改了t1的数值和结构
+        t1->left = mergeTrees(t1->left, t2->left);      // 左
+        t1->val += t2->val;                             // 中
+        t1->right = mergeTrees(t1->right, t2->right);   // 右
+        return t1;
+    }
+};
+
+// 后序遍历实现
+class Solution_Postorder {
+public:
+
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) { // 后序遍历实现
         if (t1 == NULL) return t2; // 如果t1为空，合并之后就应该是t2
         if (t2 == NULL) return t1; // 如果t2为空，合并之后就应该是t1
         // 修改了t1的数值和结构
@@ -35,6 +70,7 @@ public:
 };
 
 
+// 迭代法实现
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
